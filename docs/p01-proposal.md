@@ -1,8 +1,28 @@
-# Title of your Project: Project Proposal 
+# Title of your Project: Project Proposal
 
-**TODO**: Edit this file. Your project proposal goes here.
+### Autumn 2022
 
-For what to do, see the [`../instructions/`](../instructions/) directory, specifically: 
+###### INFO-201: Technical Foundations of Informatics
 
-* [Design Brief](../instructions/project-design-brief.pdf)
-* [Project Proposal Requirements](../instructions/p01-proposal-requirements.md)
+###### The Information School
+
+###### University of Washington
+
+
+### Authors:
+
+Simranjit Singh - singh718@uw.edu
+
+Ashwin Subrmanian -
+
+Rishita Gattam Reddy -
+
+## Abstract:
+
+  Three sentences
+
+### Keywords:
+
+  - ff
+  - fvf
+  - asd
