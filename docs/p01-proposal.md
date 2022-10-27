@@ -13,13 +13,13 @@
 
 Simranjit Singh - singh718@uw.edu
 
-Ashwin Subrmanian -
+Ashwin Subramanian -
 
-Rishita Gattam Reddy -
+Rishita Gattam Reddy - rreddy3@uw.edu
 
 ## Abstract:
 
-  Three sentences
+
 
 ### Keywords:
 
