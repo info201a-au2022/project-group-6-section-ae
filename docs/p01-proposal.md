@@ -13,13 +13,13 @@
 
 Simranjit Singh - singh718@uw.edu
 
-Ashwin Subrmanian -
+Ashwin Subramanian - ashsubr@uw.edu
 
 Rishita Gattam Reddy -
 
 ## Abstract:
 
-  Three sentences
+  helo my name is ashwin.
 
 ### Keywords:
 
