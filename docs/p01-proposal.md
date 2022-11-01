@@ -21,7 +21,11 @@ Rishita Gattam Reddy - rreddy3@uw.edu
 
 ## Abstract:
 
+<<<<<<< HEAD
 Our main goal in this project is to study the demographics of school shootings because, they are becoming more **relevant** and **common** in todays society. Although there are many articles, news stories, and protests that have brought attention to this issue our society still _can't decide on solutions_. With this data analysis (children dying is data now...) we hope to show how a critical look of the statistics can ***provide sensible and efficient approaches to this problem.***
+=======
+  helo my name is ashwin.
+>>>>>>> 57f1ebf7c1610a801bd175785d52ab9e13deb4d9
 
 ### Keywords:
 
