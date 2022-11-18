@@ -15,6 +15,8 @@ shooting_count_table$School <- recode(shooting_count_table$School, "-" = "Unknow
 
 #Shooting_Table Bar Graph
 
-ggplot(shooting_count_table, aes(x=School, y=Number_of_Shootings)) + 
+bar_graph <- ggplot(shooting_count_table, aes(x=School, y=Number_of_Shootings)) + 
   geom_bar(stat = "identity", color="black", fill = "red") +
   labs(x = "School", y = "Number of Shootings", title = "Shootings Based on School Type")
+
+bar_graph
