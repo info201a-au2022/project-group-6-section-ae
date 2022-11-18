@@ -1,12 +1,10 @@
-# Example: Project Data Access Functions  ----
-#----------------------------------------------------------------------------#
-# These functions are used to access data sources ... 
-#----------------------------------------------------------------------------#
-data_access_test <- function (name="World!") {
-  t <- paste0("Hello: ", name)
-  return(t)
-}
+library(dplyr)
+library(tidyverse)
 
+ss_df <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-6-section-ae/main/data/School%20Shootings%20Dataset%20-%20INFO%20201/pah_wikp_combo.csv")
+
+
+#Table for shootings in each state 
 
 state_table <- ss_df %>%
 	group_by(State) %>%
