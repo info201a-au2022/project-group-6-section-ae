@@ -13,7 +13,7 @@ source("summary_info.R")
 ui <- fluidPage(
   tabsetPanel(
     tabPanel("School Type", plotlyOutput("barChart")),
-    tabPanel("Area Type", plotOutput("pieChart")),
+    tabPanel("Area Type", plotlyOutput("pieChart")),
     tabPanel("Fatalities", plotlyOutput("lineChart")),
     tabPanel("States",tableOutput("stateTable")),
     tabPanel("Summmary",verbatimTextOutput("summaryList")),
@@ -24,13 +24,19 @@ plotly_barGraph <- ggplotly(bar_graph)
 
 plotly_lineGraph <- ggplotly(fatalitiygraph)
 
+plotly_pieChart <- plot_ly(type = 'pie', labels = c("Urban","Suburban","Rural"), values = vec_areatype,
+                           textinfo = 'label+percent',
+                           insidetextorientation = 'radial',
+                           title = "Shootings Based On Area")
+
+
 # Server function to generate the plots
 server <- function(input, output) {
   output$barChart <- renderPlotly({
     plotly_barGraph
   })
-  output$pieChart <- renderPlot({
-    pie_chart()
+  output$pieChart <- renderPlotly({
+    plotly_pieChart
   })
   output$lineChart <- renderPlotly({
     plotly_lineGraph

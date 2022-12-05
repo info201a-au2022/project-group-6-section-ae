@@ -16,7 +16,6 @@ rural <- ss_df %>%
 num_urban = nrow(urban)
 
 num_rural = nrow(rural)
-?nrow()
 
 num_suburban = nrow(suburban)
 
