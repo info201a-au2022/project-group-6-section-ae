@@ -9,3 +9,4 @@ ss_df <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-gro
 state_table <- ss_df %>%
 	group_by(State) %>%
 	count(name = "Number of Shootings")
+
