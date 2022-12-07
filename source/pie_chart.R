@@ -20,6 +20,8 @@ num_rural = nrow(rural)
 num_suburban = nrow(suburban)
 
 vec_areatype <- c(num_urban, num_suburban, num_rural)
+labels = c("Urban","Suburban","Rural")
+bar_df <- data.frame(labels, vec_areatype)
 
 pie_chart <- function() {
   pie(vec_areatype , labels = c("Urban","Suburban","Rural"),  main = "Shootings Based On Area",  border="black", col=myPalette)
