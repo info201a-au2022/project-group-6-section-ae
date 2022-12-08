@@ -1,7 +1,8 @@
 # School Shootings as of 2022
 
+<!-- Commenting out for website
 ## Code-Name: ss1990-current
-
+-->
 ### Autumn 2022
 
 ###### INFO-201: Technical Foundations of Informatics
@@ -16,8 +17,6 @@
 Simranjit Singh - singh718@uw.edu
 
 Ashwin Subramanian - ashsubr@uw.edu
-
-Rishita Gattam Reddy - rreddy3@uw.edu
 
 ## Abstract:
 
@@ -41,15 +40,15 @@ School shootings are something we hear a lot about in the news and experience. E
 
 Our topic is about school shootings across the US which have happened since 1990. As we know, school shootings have increased over the last few years becoming a huge negative impact on students, families, and school staff. Our project is primarily about school shootings and all their impacts.
 
-#### Direct and Indirect Stakeholders :chart:
+#### Direct and Indirect Stakeholders
 
 The biggest stakeholders in school shootings would be students, teachers and staff. This could have a huge impact on them both mentally and physically and will continue to impact them negatively for the rest of their lives. Along with victims themselves, their families are also direct stakeholders in the situation. An indirect stakeholder could be real estate in the area. Knowing a school shooting has happened in the area could significantly drop housing prices which would have a long-term effect on the community itself. Looking at the bigger picture though, all people are indirect stakeholders because everyone feels frightened after school shootings and hopes for the safety of their own loved ones.
 
-#### Human Values :dollar:
+#### Human Values
 
 When a new school shooting happens, and is put out in the news, everyone has the same question, why did the shooter decide to shoot up a school? This has to do with basic human values. Since 1990, there have been over 320,000 school shootings, which means over 320,000 people who thought it was ok to shoot up a school. Out of those 320,000, the majority of them did not realize their mistakes even after being caught, but all the involved students and families did. When we think about human values, we know that shooting anyone is wrong, so why is it happening so often?
 
-#### Benefits and Harm :thumbsup: :thumbsdown:
+#### Benefits and Harm
 
 If interventions were taken to prevent future school shootings, many of the direct stakeholders would benefit from it. The direct stakeholders include students, their families, school staff, and many other individuals. Knowing that something was being done to prevent even more school shootings would keep these people at rest. Along with these stakeholders, parents who are worried about their own kids being involved in a school shooting will also benefit knowing that they are being prevented.
 
@@ -57,7 +56,7 @@ A potential harm that could be done due to interventions taking place could invo
 
 > References cited at the end
 
-### Research Questions :question:
+### Research Questions
 
 - What areas are more prone to school shootings?
 
@@ -76,11 +75,15 @@ A potential harm that could be done due to interventions taking place could invo
 
 The dataset we've chosen in this project is in direct correlation of our problem and our research questions. In the data files we have the information available for, the types of schools, the states, the description or reasons for the shootings and also counts of victims (fatalities and injuries). We also have access to the source of where these data points were found from, so we can track down the specifics if need be.
 
+<!-- Commenting out for website
+
 | Data File Names | Number of Observations | Number of Variables |
 | :-------------  | :------------- | :------------- |
 | README.md       | N/A            | N/A            |
 | cps_01_formatted.CSV | 69        | 18             |
 | pah_wikp_combo.CSV   | 755       | 10             |
+
+-->
 
 ### Main Link for the Data Files:
 
@@ -121,7 +124,7 @@ How was the data validated and held secure?
 
 How did you obtain the data? Do you credit the source of the data?
 
-- Searching on kaggle for “School shootings” helped us find this dataset. The link has been included in the introduction and above in this section.
+- Searching on Kaggle for “School shootings” helped us find this dataset. The link has been included in the introduction and above in this section.
 
 
 ### Implications
@@ -144,6 +147,44 @@ Although we have access to the descriptions on the school shootings, we can't ju
 #2:
 
 Another limitation is with the data itself. We have multiple types of information for all the various variables but we don't have data regarding how the shooters sourced their guns or what kinds of guns. If we had this data as well, we could make conclusions on what types of guns (ARs, handguns, shotguns, etc.) are easier to obtain. If we knew the source as well, we could use it to determine factors on lack of parental supervision, neglect of firearm safety, and even where to focus in terms of access/sourcing.
+
+### Findings
+
+When we look back at our original research questions, we can see how the charts and statistics calculated help us answer them with some reasoning and evidence now. We can effectively analyze all the information we've gathered up to this point to make some conclusions.
+
+#### What areas are more prone to school shootings?
+
+The areas were shown in the pie chart/bar chart in the third tab of this website. When we look at the pie chart we can see that the urban area type makes up 67% (256 shootings) of the areas that experienced school shootings. Suburban comes in at second with around 26% shootings taking place in that area type.
+
+#### What type of institutions experience more incidents of school shootings?
+
+The type of schools that experienced the most school shootings from 1990s to present day were high schools. When we look at the bar graph we can see that no matter what other school you compare they seem to fall much behind. The second type of institution to experience school shootings are colleges. Colleges have had around 150 shootings whereas high schools have been recorded to be at a total of 439! ___The difference is 300, 300 more shootings...___
+
+#### What are the most common reasons for these incidents to occur?
+
+It seems to be that the most common occurrence of these incidents tends to be in urban areas at high schools. Most of these shooters are also students that attend these schools are around the same age of the victims. When we look at the dataset we can see that some of them have reasons listed and it usually tends to lead from mental illnesses or bullying. Although we have seen a downwards trend in bullying over the recent years, when we reference the line graph we can see how the line is beginning to increase again and it tells us a different story.
+
+### Discussion
+
+We have statistics derived from this dataset, we have the visualizations and even a proper report of the analysis **but,** that does not mean this is concrete. We cannot say for certainty that every school shooting is done by a child with a mental illness or due to bullying. We can't say that elementary school or middle schools should be left unmonitored since most high schools tend to be targets.
+
+> We might not be able to come up with a complete solution for every scenario **but,** we can try to take these findings into account for preventive measures.
+
+At the same time though, we can't ignore the statistics. We can take these findings and apply them in ways that would be most effective in relation to them. For example, we can make high schools have more security, metal detectors or more. We can make sure there is training and plans made by schools for these situations when it comes to staff as well as students. A more safer solution would be to have more restrictive laws and make our legal system more secure when it comes to possession of firearms.
+
+### Conclusion
+
+At the end of this analysis report, we want everyone to think of what was learned and processed. This study may be concluded but that does not mean we should also put an end to our hope and want for safety of our future generations. The findings speak for themselves and although we have discussed some ways to "solve" this issue, the truth is it is not an issue that can be solved with throwing more security and metal detectors around.
+
+These are much more temporary and more like "we have to do something so let's just do this" approaches. A more permanent and better route would be to not only educate ourselves but also educate our peers on gun control and gun violence.
+
+ ___Knowledge is true power.___
+
+> We shouldn't even have security guards and metal detectors in our schools. Schools should not be associated with fear or violence. School **must** be associated with a sense of **safety**, **care** and **love.**
+
+We hope this report and analysis of school shootings from the 1990s to present day has given you a better sense and grasp on the statistics. We hope to have provided a proficient look at this data set that was simple to understand. Hopefully this analysis really makes us question our priorities as well as think about our schools and coming future generations.
+
+_Thank you for taking the time to look at our study, giving it value and letting us complete this social service._
 
 #### References:  
 
