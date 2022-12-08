@@ -13,8 +13,8 @@ source("summary_info.R")
 # Introduction Page
 introPage <- tabPanel(
   "Introduction",
-  img(src = "www/ss1 1.46.46 AM.jpg", align = "center", alt = "School Shootings information image"),
-  p("\nSchool shootings are one of the biggest and saddest social and cultural issues plaguing the US today. Everyday, approximately 12 children die due to gun violence and another 32 are shot and injured. Through our project we aimed to answer some questions like what area types saw more school shootings and what type of educational institutions is more prone to be a victim of a school shooting. Our dataset had a record of every school shooting that tragedized this country from 1990 till 2022. Using our DPLYR skills, we were able to come up with some answers!"),
+  img(src = "ss1 1.46.46 AM.jpg", width = 1000, height = 500, align = "center", alt = "School Shootings information image"),
+  p("School shootings are one of the biggest and saddest social and cultural issues plaguing the US today. Everyday, approximately 12 children die due to gun violence and another 32 are shot and injured. Through our project we aimed to answer some questions like what area types saw more school shootings and what type of educational institutions is more prone to be a victim of a school shooting. Our dataset had a record of every school shooting that tragedized this country from 1990 till 2022. Using our DPLYR skills, we were able to come up with some answers!"),
 )
 
 # Summary takeaways page
