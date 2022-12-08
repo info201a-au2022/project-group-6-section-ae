@@ -73,6 +73,33 @@ linePage <- tabPanel(
 # Shiny app with sidebar layout
 ui <- fluidPage(
   "School Shootings",
+  tags$head(
+    # Note the wrapping of the string in HTML()
+    tags$style(HTML("
+      @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+      body {
+        background-color: black;
+        color: white;
+      }
+      p {
+        font-family: 'Courier New', monospace;
+      }
+      h1 {
+        font-family: 'Times New Roman', serif;
+      }
+      h2 {
+        font-family: 'Times New Roman', serif;
+      }
+      h3 {
+        font-family: 'Times New Roman', serif;
+      }
+      h4 {
+        font-family: 'Times New Roman', serif;
+      }
+      .shiny-input-container {
+        color: #474747;
+      }"))
+  ),
   tabsetPanel(
     introPage,
     barPage,
